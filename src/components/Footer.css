@@ -1,0 +1,32 @@
+.App-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    position: relative;
+  }
+  
+  .App-footer.visible {
+    opacity: 1;
+  }
+  
+  .App-footer.hidden {
+    opacity: 0;
+  }
+  
+  .social-media {
+    margin: 10px 0;
+  }
+  
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
